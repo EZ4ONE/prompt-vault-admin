@@ -1,0 +1,6 @@
+node_modules/
+.next/
+.DS_Store
+*.log
+data/prompts.db
+data/prompts.db-journal
