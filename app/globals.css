@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0a0a0f;
+  color: #e8e8f0;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-lg transition-colors;
+}
+
+.btn-primary {
+  @apply bg-purple-600 hover:bg-purple-700 text-white;
+}
+
+.btn-danger {
+  @apply bg-red-600 hover:bg-red-700 text-white;
+}
+
+.btn-edit {
+  @apply bg-blue-600 hover:bg-blue-700 text-white;
+}
+
+.input {
+  @apply w-full bg-[#14141e] border border-[#2a2a3a] rounded-lg px-4 py-2 text-white focus:outline-none focus:border-purple-600;
+}
+
+.card {
+  @apply bg-[#14141e] border border-[#2a2a3a] rounded-lg p-4;
+}
